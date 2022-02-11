@@ -10,5 +10,15 @@ int add_numbers(int num1, int num2)
 //function returns product of num1 and num2
 
 
+double get_tip_amount(double meal_amount, double tip_rate)
+{
+	double meal_amount = 15.00;
+	double tip_rate = 0.2;
+	return meal_amount * tip_rate;
+}
 
-
+double get_sales_tax_amount(double meal_amount)
+{
+	double meal_amount = 15.00;
+	return meal_amount * tax_rate;
+}

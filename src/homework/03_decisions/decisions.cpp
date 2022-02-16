@@ -1,48 +1,50 @@
 #include "decisions.h"
 //write include statement for decisions header
 
-//Write code for function get_grade_points that accepts a string letter_grade and returns 
-//the grade_points for as follows:
-//given grade "A" returns 4
-//given grade "B" returns 3
-//given grade "C" returns 2
-//given grade "D" returns 1
-//given grade "F" returns 0
-//another other value return -1
-int get_grade_points(std::string letter_grade)
+//Get letter grade using numerical grade (if statement)
+std::string get_letter_grade_using_if(int grade)
 {
-	if (letter_grade == "A") 
-	{
-		return 4;
-	}
-	else if(letter_grade == "B") 
-	{
-		return 3;
-	}
-	else if (letter_grade == "C")
-	{
-		return 2;
-	}
-	else if (letter_grade == "D")
-	{
-		return 1;
-	}
-	else if (letter_grade == "F")
-	{
-		return 0;
-	}
-	else 
-	{
-		return -1;
-	}
+    if (grade <= 100 && grade >= 95)
+    {
+        return "A";
+    }
+    else if(grade <= 94 && grade >= 85)
+    {
+        return "B";
+    }
+    else if(grade <= 84 && grade >= 75)
+    {
+        return "C";
+    }
+    else if(grade <= 74 && grade >= 65)
+    {
+        return "D";
+    }
+    else
+    {
+        return "F";
+    }
 }
 
-
-//Write code for function calculate_gpa that accepts an int named credit_hours and
-//a double named credit_points.  The function returns the quotient of credit_points divided by
-//credit_hours. In the function account for division by zero by returning a -1.
-double calculate_gpa(int credit_hours, double credit_points)
+//Get letter grade using numerical grade (switch statement)
+std::string get_letter_grade_using_switch(int grade)
 {
-	return credit_points / credit_hours;
+    switch (grade) {
+        case 95 ... 100:
+            return "A";
+            break;
+        case 85 ... 94:
+            return "B";
+            break;
+        case 75 ... 84:
+            return "C";
+            break;
+        case 65 ... 74:
+            return "D";
+            break;
+        case 0 ... 64:
+            return "F";
+            break;
+    }
 }
 

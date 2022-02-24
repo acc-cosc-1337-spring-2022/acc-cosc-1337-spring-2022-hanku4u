@@ -1,19 +1,24 @@
 #include<string>
+#include<iostream>
 
-/*
-Write prototype for function get_gc_content that accepts
-a const reference string parameter and returns a double
-*/
+//using statements
+using std::cout; using std::cin; using std::string; using std::endl;
 
+//Factorial function accepts one integer as argument and returns the sum.
+int factorial(int num);
 
-/*
-Write prototype for function get_reverse_string that 
-accepts a string parameter and returns a string
-*/
+//Greatest common divisor accepts two integers as arguments and finds the largest number
+//that both are divisible by.
+int greatest_divisor(int num1, int num2);
 
+//Displays menu
+void display_menu();
 
-/*
-Write prototype for function get_dna_complement that
-accepts a string and returns a string
-*/
+//Calls factorial for menu
+void call_factorial();
 
+//Calls GCD for menu
+void call_GCD();
+
+//Calls exit for menu
+void call_exit();

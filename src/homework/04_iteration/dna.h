@@ -14,6 +14,12 @@ int greatest_divisor(int num1, int num2);
 //Displays menu
 void display_menu();
 
+//Runs menu
+void run_menu();
+
+//Handle the users menu selection
+void handle_menu_option(int selection);
+
 //Calls factorial for menu
 void call_factorial();
 

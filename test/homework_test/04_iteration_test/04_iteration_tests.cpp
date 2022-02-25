@@ -14,6 +14,7 @@ TEST_CASE("Test factorial function") {
     REQUIRE(40320 == factorial(8));
     REQUIRE(362880 == factorial(9));
     REQUIRE(3628800 == factorial(10));
+    REQUIRE(6227020800 == factorial(13));
 }
 
 TEST_CASE("Test greatest_divisor function") {

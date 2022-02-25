@@ -15,6 +15,7 @@ int factorial(int num)
     return sum;
 }
 
+
 //Greatest common divisor accepts two integers as arguments and finds the largest number
 //that both are divisible by.
 int greatest_divisor(int num1, int num2)
@@ -44,6 +45,7 @@ int greatest_divisor(int num1, int num2)
     }
 }
 
+
 //call factorial function
 void call_factorial()
 {
@@ -60,9 +62,10 @@ void call_factorial()
         cin >> func_arg;
     }
     int result = factorial(func_arg);
-    cout<<"The factorial of "<< func_arg << " is: "<< result << "\n";
+    cout<<"The factorial of "<< func_arg << " is: "<< result <<"\n";
 
 }
+
 
 //call GCD function
 void call_GCD()
@@ -103,6 +106,7 @@ void call_GCD()
          << ".\n";
 }
 
+
 //call exit function
 void call_exit()
 {
@@ -125,7 +129,21 @@ void call_exit()
 
     else if (menu_continue == "n" || menu_continue == "N")
     {
-        display_menu();
+        run_menu();
+    }
+}
+
+
+//handle menu option user has selected
+void handle_menu_option(int selection)
+{
+    if (selection == 1)
+    {
+        call_factorial();
+    }
+    else if (selection == 2)
+    {
+        call_GCD();
     }
 }
 
@@ -133,34 +151,39 @@ void call_exit()
 //display menu
 void display_menu()
 {
-    cout << "Main Menu \n";
+    cout << "\nMain Menu \n";
     cout << "1-Factorial\n";
     cout << "2-Greatest Common Divisor\n";
     cout << "3-Exit\n";
+}
 
+
+//run menu
+void run_menu()
+{
     int user_select;
-    cin >> user_select;     //users selection from the menu
+    do
+    {
+        display_menu();
+        cout << "Select an option.\n";
+        cin >> user_select;     //users selection from the menu
 
-    while ((user_select != 1 && user_select != 2 && user_select != 3) || cin.fail())
-    {
-        cout<<"Invalid choice. Select 1, 2, or 3\n";
-        cin.clear();
-        cin.ignore();
-        cin >> user_select;
+//      force valid selection
+        if ((user_select != 1 && user_select != 2 && user_select != 3) || cin.fail())
+        {
+            cout<<"Invalid choice. Select 1, 2 or 3\n";
+            cin.clear();
+            cin.ignore();
+            cin >> user_select;
+        }
+        handle_menu_option(user_select);
     }
-
-    if (user_select == 1)
-    {
-        call_factorial();
-    }
-    else if (user_select == 2)
-    {
-        call_GCD();
-    }
-    else if (user_select == 3)
+    while (user_select != 3);
     {
         call_exit();
     }
 }
+
+
 
 

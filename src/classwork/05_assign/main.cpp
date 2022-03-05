@@ -6,7 +6,7 @@
 
 int main()
 {
-    run_menu();2
+    run_menu();
 
 	return 0;
 }

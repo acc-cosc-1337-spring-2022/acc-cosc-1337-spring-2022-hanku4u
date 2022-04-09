@@ -31,6 +31,7 @@ int main()
         auto winner = game.get_winner();
         manager.save_game(game);
         cout << "Game Over." << "\n";
+        cout << "The winner is " << winner << "\n";
         cout << manager;
         cout << "\nEnter 'Y' to play again. Enter any other key to quit.\n";
         cin >> choice;

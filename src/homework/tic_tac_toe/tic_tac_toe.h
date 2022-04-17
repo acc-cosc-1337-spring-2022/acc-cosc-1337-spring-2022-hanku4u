@@ -11,27 +11,34 @@ using std::string; using std::vector; using std::istream; using std::ostream;
 class TicTacToe
 {
 public:
+    TicTacToe(int size);
     bool game_over();
     void start_game(string first_player);
     void mark_board(int position);
     string get_player()const{return player;}
+    string get_winner();
+
     friend istream& operator>>(istream& in, TicTacToe& game);
     friend ostream& operator<<(ostream& out, TicTacToe& game);
-    //    void display_board()const;
-    string get_winner();
+
+//    This code works
+//    friend std::istream& operator>>(std::istream&, TicTacToe&);
+//    friend std::ostream& operator<<(std::ostream&, const TicTacToe&);
+
+protected:
+    std::vector<std::string> pegs;
+    virtual bool check_row_win();
+    virtual bool check_column_win();
+    virtual bool check_diagonal_win();
 
 private:
     string player;
-    vector<string> pegs{9, " "};
+//    vector<string> pegs{9, " "};
     string winner;
     void set_next_player();
     bool check_board_full();
     void clear_board();
-    bool check_column_win();
-    bool check_row_win();
-    bool check_diagonal_win();
     void set_winner();
-
 
 };
 

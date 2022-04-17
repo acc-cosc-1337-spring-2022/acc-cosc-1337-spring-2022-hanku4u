@@ -6,17 +6,17 @@ using std::vector; using std::string; using std::cout; using std::cin; using std
 
 //public
 
-void TicTacToeManager::save_game(TicTacToe b)
+void TicTacToeManager::save_game(unique_ptr<TicTacToe>& b)
 {
-    games.push_back(b);
-    update_winner_count(b.get_winner());
+    update_winner_count(b->get_winner());
+    games.push_back(std::move(b));
 }
 
-ostream& operator<<(ostream& out, const TicTacToeManager& manager)
+ostream& operator<<(ostream& out, TicTacToeManager& manager)
 {
-    for (auto i : manager.games)
+    for (auto i=0; i < manager.games.size(); i++)
     {
-        out << i <<"\n";
+        out << *manager.games[i] <<"\n";
     }
 
     out<<"O wins: "<<manager.o_win<<"\n";

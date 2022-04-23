@@ -5,14 +5,15 @@
 
 using std::cout; using std::cin; using std::string;
 
-int main() 
+int main()
 {
     unique_ptr<TicTacToe> game;
+    TicTacToeData data;
     string first_player;
     int board_size;
     char choice;
 
-    TicTacToeManager manager;
+    TicTacToeManager manager(data);
 
     do
     {
@@ -34,7 +35,7 @@ int main()
         }
 
         // Select first player
-        cout << "Enter first player (X or O): ";
+        cout << "\nEnter first player (X or O): ";
         cin >> first_player;
         while (first_player != "X" && first_player != "O")
         {

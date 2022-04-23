@@ -1,4 +1,3 @@
-//h
 #include <string>
 #include <vector>
 #include <iostream>
@@ -12,18 +11,15 @@ class TicTacToe
 {
 public:
     TicTacToe(int size);
+    TicTacToe(vector<string> p, string win) : pegs(p), winner(win){};
     bool game_over();
     void start_game(string first_player);
     void mark_board(int position);
     string get_player()const{return player;}
     string get_winner();
-
+    vector<string>get_pegs() const{return pegs;}
     friend istream& operator>>(istream& in, TicTacToe& game);
     friend ostream& operator<<(ostream& out, TicTacToe& game);
-
-//    This code works
-//    friend std::istream& operator>>(std::istream&, TicTacToe&);
-//    friend std::ostream& operator<<(std::ostream&, const TicTacToe&);
 
 protected:
     std::vector<std::string> pegs;
@@ -33,7 +29,6 @@ protected:
 
 private:
     string player;
-//    vector<string> pegs{9, " "};
     string winner;
     void set_next_player();
     bool check_board_full();

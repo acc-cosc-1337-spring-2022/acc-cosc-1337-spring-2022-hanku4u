@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/examples/01_module/01_hello_world",
+		"source" : "src/examples/01_module/01_hello_world"
+	}
+}

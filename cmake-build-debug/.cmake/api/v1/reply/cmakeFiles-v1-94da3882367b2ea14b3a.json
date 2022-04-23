@@ -1,0 +1,319 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/classwork/CMakeLists.txt"
+		},
+		{
+			"path" : "src/classwork/01_assign/CMakeLists.txt"
+		},
+		{
+			"path" : "src/classwork/02_assign/CMakeLists.txt"
+		},
+		{
+			"path" : "src/classwork/03_assign/CMakeLists.txt"
+		},
+		{
+			"path" : "src/classwork/05_assign/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/01_hello_world/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/02_int/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/03_input/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/04_decimals/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/05_auto/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/06_char/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/01_module/07_string/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/01_expressions/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/02_casting/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/03_overflow/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/04_constants/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/05_data_type_size/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/02_module/06_multi_assign/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/03_module/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/03_module/01_if/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/03_module/02_if_else/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/03_module/03_switch/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/01_variables/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/02_expressions/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/03_decisions/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/04_iteration/CMakeLists.txt"
+		},
+		{
+			"path" : "src/homework/tic_tac_toe/CMakeLists.txt"
+		},
+		{
+			"path" : "test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/classwork_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/classwork_test/01_assign_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/classwork_test/02_assign_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/classwork_test/03_assign_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/classwork_test/05_assign_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/examples_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/examples_test/01_module_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/examples_test/02_module_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/examples_test/03_module_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/01_variables_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/02_expressions_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/03_decisions_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/04_iteration_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/homework_test/tic_tac_toe_test/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/haight4u/CLionProjects/acc-cosc-1337-spring-2022-hanku4u/cmake-build-debug",
+		"source" : "C:/Users/haight4u/CLionProjects/acc-cosc-1337-spring-2022-hanku4u"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -63,6 +63,7 @@ int main()
             }
         }
 
+
         manager.save_game(game);
         cout << "Game Over.\n";
         cout << "\n" << manager;

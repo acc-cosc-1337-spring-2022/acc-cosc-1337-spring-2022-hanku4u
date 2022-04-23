@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ex_01_02_exe.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\ex_01_02_exe.dir/objects.a @CMakeFiles\ex_01_02_exe.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE  -std=c++17 -Wall -g -Wl,--whole-archive CMakeFiles\ex_01_02_exe.dir/objects.a -Wl,--no-whole-archive -o ex_01_02_exe.exe -Wl,--out-implib,libex_01_02_exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ex_01_02_exe.dir\linklibs.rsp

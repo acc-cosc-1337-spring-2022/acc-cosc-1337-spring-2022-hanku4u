@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cw_02_tests.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\cw_02_tests.dir/objects.a @CMakeFiles\cw_02_tests.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE  -std=c++17 -Wall -g -Wl,--whole-archive CMakeFiles\cw_02_tests.dir/objects.a -Wl,--no-whole-archive -o cw_02_tests.exe -Wl,--out-implib,libcw_02_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cw_02_tests.dir\linklibs.rsp

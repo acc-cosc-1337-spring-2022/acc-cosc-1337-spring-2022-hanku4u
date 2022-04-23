@@ -1,0 +1,1 @@
+ ../../../src/examples/03_module/01_if/libex_03_01_library.a ../../../src/examples/03_module/02_if_else/libex_03_02_library.a ../../../src/examples/03_module/03_switch/libex_03_03_library.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
